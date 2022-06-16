@@ -1,4 +1,4 @@
-package im.zishen.study.bookstore_servlet.model;
+package im.zishen.study.bookstore.bookstore_springmvc.model;
 
 public class Book {
     private int id;

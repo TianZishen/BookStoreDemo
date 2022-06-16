@@ -7,10 +7,21 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>Apex BookStore</title>
+</head>
+<body>
+<form action="${pageContext.request.contextPath}/loginAction" method="post">
+    用户名:
+    <label>
+        <input type="text" name="name"/>
+    </label>
+    <br />
+    密码:
+    <label>
+        <input type="password" name="password" />
+    </label>
+    <input type="submit" value="提交" />
+</form>
+</body>
 </html>
