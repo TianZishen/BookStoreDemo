@@ -11,7 +11,7 @@ public class HelloController{
     @RequestMapping("/hello")
     public ModelAndView handleRequest(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws Exception {
         System.out.println("hello");
-        ModelAndView mav = new ModelAndView("index.jsp");
+        ModelAndView mav = new ModelAndView("index");
         mav.addObject("message", "Hello SpringMVC");
         return mav;
     }
