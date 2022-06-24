@@ -1,4 +1,4 @@
-package im.zishen.study.bookstore.bookstore_springmvc.service;
+package service;
 
 import im.zishen.study.bookstore.bookstore_springmvc.model.User;
 import org.springframework.stereotype.Service;
