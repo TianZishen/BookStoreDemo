@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Aspect
 public class Aop {
-    @Pointcut("execution(* im.zishen.study.bookstore.bookstore_springmvc.controller..*.*(..))")
+    @Pointcut("execution(* im.zishen.study.bookstore.bookstore_springmvc.service..*.*(..))")
     public void pointCut(){}
     @Before("pointCut()")
     public void begin(){

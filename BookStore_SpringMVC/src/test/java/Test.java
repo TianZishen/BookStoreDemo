@@ -9,7 +9,7 @@ public class Test {
 
     public static void main(String[] args) {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
-        LoginService loginService = (LoginService) ctx.getBean("LoginService");
+        LoginService loginService = (LoginService) ctx.getBean("loginService");
         User user = new User();
         user.setName("username");
         user.setPassword("123456");

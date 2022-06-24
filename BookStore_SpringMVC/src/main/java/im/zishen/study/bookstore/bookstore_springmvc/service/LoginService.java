@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class LoginService {
     private volatile static LoginService loginServiceSingleton;
-    private LoginService(){
+    public LoginService(){
 
 
     }
